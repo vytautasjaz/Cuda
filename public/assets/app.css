@@ -62,9 +62,12 @@ h3 {
       color: white;
       list-style-type: none;
       cursor: pointer; }
+      .topnav__content__menu li:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 3px; }
     .topnav__content__menu__active {
       border-radius: 3px;
-      background-color: #633a79; }
+      background-color: #633a79 !important; }
 
 .head {
   width: 100%;
@@ -223,6 +226,9 @@ h3 {
       list-style-type: none;
       border-radius: 3px;
       cursor: pointer; }
+      .portfolio__selection li:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 3px; }
     .portfolio__selection__active {
       background-color: rgba(255, 255, 255, 0.5) !important; }
   .portfolio__projects {

@@ -74,10 +74,14 @@ h3 {
                 color: white;
                 list-style-type: none;
                 cursor: pointer;
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.1);
+                    border-radius: 3px;
+                }
             }
             &__active {
                 border-radius: 3px;
-                background-color: #633a79;
+                background-color: #633a79 !important;
             }
         }
     }
@@ -271,6 +275,10 @@ h3 {
                 list-style-type: none;
                 border-radius: 3px;
                 cursor: pointer;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.25);
+                    border-radius: 3px;
+                }
             }
             &__active {
                 background-color: rgba(255, 255, 255, 0.5) !important;
