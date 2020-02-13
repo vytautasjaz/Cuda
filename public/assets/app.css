@@ -274,6 +274,9 @@ h3 {
         height: 100px;
         border-radius: 50%;
         background-color: #777777; }
+        .people__content__item__pic img {
+          width: 100%;
+          border-radius: 50%; }
       .people__content__item__text {
         flex: 1; }
         .people__content__item__text p {
