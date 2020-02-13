@@ -205,21 +205,23 @@ h3 {
     color: #393939;
     text-align: center;
     max-width: 600px; }
-  .portfolio__selection ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .portfolio__selection li {
-    margin: 5px;
-    padding: 5px 30px;
-    text-transform: uppercase;
-    color: #393939;
-    background-color: rgba(0, 0, 0, 0.1);
-    list-style-type: none;
-    border-radius: 3px;
-    cursor: pointer; }
-  .portfolio__selection__active {
-    background-color: rgba(255, 255, 255, 0.5) !important; }
+  .portfolio__selection {
+    margin-bottom: 20px; }
+    .portfolio__selection ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .portfolio__selection li {
+      margin: 5px;
+      padding: 5px 30px;
+      text-transform: uppercase;
+      color: #393939;
+      background-color: rgba(0, 0, 0, 0.1);
+      list-style-type: none;
+      border-radius: 3px;
+      cursor: pointer; }
+    .portfolio__selection__active {
+      background-color: rgba(255, 255, 255, 0.5) !important; }
   .portfolio__projects {
     width: 80%;
     max-width: 1100px;
@@ -233,9 +235,9 @@ h3 {
       flex-direction: column;
       align-items: center; }
       .portfolio__projects__item__pic {
-        width: 95%;
-        height: 300px;
-        background-color: rgba(0, 0, 0, 0.3); }
+        width: 95%; }
+        .portfolio__projects__item__pic img {
+          width: 100%; }
       .portfolio__projects__item p {
         text-transform: uppercase;
         font-weight: 700; }
